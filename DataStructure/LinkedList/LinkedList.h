@@ -14,13 +14,13 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-typedef struct Data_Struct
+typedef struct LinkedList
 {
-	int x;
-	struct Data_Struct *next;
-} data_struct_t;
+	int value;
+	struct LinkedList *next;
+} LinkedList_t;
 
-void LinkedListShow(data_struct_t *root);
-void LinkedListAdd(data_struct_t *root, int x);
+void ShowLinkedList(LinkedList_t *root);
+void AddLinkedList(LinkedList_t *root, int value);
 
 #endif /* LINKED_LIST_H_ */

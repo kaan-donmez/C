@@ -10,22 +10,22 @@
 
 #include "LinkedList.h"
 
-void LinkedListShow(data_struct_t *root)
+void LinkedListShow(LinkedList_t *root)
 {
 	while (root != NULL)
 	{
-		printf("%d\n", root->x);
+		printf("%d\n", root->value);
 		root = root->next;
 	}
 }
 
-void LinkedListAdd(data_struct_t *root, int x)
+void LinkedListAdd(LinkedList_t *root, int value)
 {
 	while (root->next != NULL)
 	{
 		root = root->next;
 	}
-	root->next = (data_struct_t *)malloc(sizeof(data_struct_t));
-	root->next->x = x;
+	root->next = (LinkedList_t *)malloc(sizeof(LinkedList_t));
+	root->next->value = value;
 	root->next->next = NULL;
 }
