@@ -10,7 +10,7 @@
 
 #include "LinkedList.h"
 
-void LinkedListShow(LinkedList_t *root)
+void ShowLinkedList(LinkedList_t *root)
 {
 	while (root != NULL)
 	{
@@ -19,7 +19,7 @@ void LinkedListShow(LinkedList_t *root)
 	}
 }
 
-void LinkedListAdd(LinkedList_t *root, int value)
+void AddLinkedList(LinkedList_t *root, int value)
 {
 	while (root->next != NULL)
 	{
