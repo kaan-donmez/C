@@ -22,5 +22,7 @@ typedef struct LinkedList
 
 void ShowLinkedList(LinkedList_t *root);
 void AddLinkedList(LinkedList_t *root, int value);
+void AddSequentLinkedList();
+void DeleteEntityLinkedList();
 
 #endif /* LINKED_LIST_H_ */
