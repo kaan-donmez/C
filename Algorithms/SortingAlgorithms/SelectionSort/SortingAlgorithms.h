@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 SelectionSort.h
- *   @brief 	 This file contains all the function.
- *   @date       Sep 21, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
-
 #include <stdio.h>
 #include "stdint.h"
 

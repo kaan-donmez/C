@@ -14,7 +14,7 @@ uint32_t VariadicFunction(int n, ...)
 
     for (int i = 0; i < n; i++)
     {
-        //Write code here
+        // Write code here
     }
 
     va_end(ptr);

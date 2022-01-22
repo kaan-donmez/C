@@ -1,16 +1,5 @@
-/*
- ******************************************************************************
- *   @file        SPI_Interface.h
- *   @brief       This file contains all the function prototypes for
- *                SPI_Interface.h file
- *   @date        Sep 6, 2021
- *   @author      Kaan Dönmez
- *   @version     1.0.0
- ******************************************************************************
- */
-
-#ifndef APPLICATION_SPI_INTERFACE_SPI_INTERFACE_H_
-#define APPLICATION_SPI_INTERFACE_SPI_INTERFACE_H_
+#ifndef __SPI_INTERFACE__
+#define __SPI_INTERFACE__
 
 #include "spi.h"
 #include "stdint.h";
@@ -23,4 +12,4 @@ void SpiInterface(uint16_t data);
 static void ChipSelectEnable();
 static void ChipSelectDisable();
 
-#endif /* APPLICATION_SPI_INTERFACE_SPI_INTERFACE_H_ */
+#endif /* __SPI_INTERFACE__ */

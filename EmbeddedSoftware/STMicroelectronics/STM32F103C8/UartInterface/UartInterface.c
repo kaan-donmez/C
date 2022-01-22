@@ -1,12 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 uart.c
- *   @brief 	 This file contains all the functions.
- *   @date       Nov 15, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
 #include "UartInterface.h"
 
 /*

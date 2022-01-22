@@ -1,5 +1,5 @@
-#ifndef VARIADICFUNCTIONS_H_
-#define VARIADICFUNCTIONS_H_
+#ifndef __VARIADICFUNCTIONS__
+#define __VARIADICFUNCTIONS__
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -7,4 +7,4 @@
 
 uint32_t VariadicFunction(int n, ...);
 
-#endif /* VARIADICFUNCTIONS_H_ */
+#endif /* __VARIADICFUNCTIONS__ */

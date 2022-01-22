@@ -1,12 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 SPI_Interface.c
- *   @brief 	 This file contains all the function.
- *   @date       Sep 6, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
 #include "SpiInterface.h"
 
 /*

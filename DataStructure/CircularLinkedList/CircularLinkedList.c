@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 CircularLinkedList.c
- *   @brief 	 This file contains all the function.
- *   @date       Dec 14, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
-
 #include "CircularLinkedList.h"
 
 void AddCircularLinkedList(CircularLinkedList_t *root, int value)

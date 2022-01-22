@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 SelectionSort.c
- *   @brief 	 This file contains all the function.
- *   @date       Sep 21, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
-
 #include "SortingAlgorithms.h"
 
 void Swap(uint32_t *first, uint32_t *second)

@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 StringFunctions.h
- *   @brief 	 This file contains all the function prototype.
- *   @date       Nov 27, 2021
- *   @author	 Kaan Donmez
- *   @version    1.0.0
- ******************************************************************************
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

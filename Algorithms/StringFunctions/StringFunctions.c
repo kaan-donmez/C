@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	   StringFunctions.c
- *   @brief 	   This file contains all the function.
- *   @date       Nov 27, 2021
- *   @author	   Kaan Donmez
- *   @version    1.0.1
- ******************************************************************************
- */
-
 #include "StringFunctions.h"
 
 /*

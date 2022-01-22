@@ -1,13 +1,3 @@
-/*
- ******************************************************************************
- *   @file  	 LinkedList.c
- *   @brief 	 This file contains all the function.
- *   @date       Aug 30, 2021
- *   @author	 Kaan Dönmez
- *   @version    1.0.0
- ******************************************************************************
- */
-
 #include "LinkedList.h"
 
 void ShowLinkedList(LinkedList_t *root)
