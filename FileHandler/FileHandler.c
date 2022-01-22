@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "FileHandle.h"
 
 void WriteFile(const char *restrict fileName, char *dataToBeWritten)
 {
@@ -27,9 +26,21 @@ void WriteFile(const char *restrict fileName, char *dataToBeWritten)
   }
 }
 
-int main()
+char ReadFile(const char *restrict fileName)
 {
+  FILE *fp = fopen(fileName, "r");
 
-  WriteFile("Files/File.txt", "Hello World");
-  return 0;
+  if (fp == NULL)
+  {
+    printf("Error: could not open file %s", fileName);
+  }
+
+  char ch;
+  while ((ch = fgetc(fp)) != EOF)
+  {
+    putchar(ch);
+  }
+
+  fclose(fp);
+  return ch;
 }
